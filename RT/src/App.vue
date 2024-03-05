@@ -6,7 +6,12 @@
 </template>
 
 <style scoped lang="scss">
-.test {
+.test{
   color: $priceColor;
 }
+#app {
+  width: 100%;
+  padding: 0;
+}
 </style>
+
