@@ -1,12 +1,12 @@
-<script setup>
-import { RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
-  <HelloWorld msg="You did it!" />
+  <RouterView />
+  <div class="test">test scss</div>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+.test {
+  color: $priceColor;
+}
 </style>
