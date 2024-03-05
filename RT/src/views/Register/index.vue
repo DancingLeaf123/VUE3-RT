@@ -77,7 +77,7 @@ const doLogin = () => {
                 :model="form"
                 :rules="rules"
                 label-position="right"
-                label-width="60px"
+                label-width="100px"
                 status-icon
               >
                 <el-form-item prop="account" label="用户名">
@@ -111,6 +111,8 @@ const doLogin = () => {
   display: flex;
   flex-direction: column;
   height: 100vh; // 使容器占满整个视口高度
+  background-color: white;
+  color: white;
 }
 
 .header {
@@ -127,6 +129,10 @@ const doLogin = () => {
 .main {
   flex: 1; // 使main区域占据剩余空间
   padding-top: 80px; // 需要足够的空间来避免被header遮挡
+}
+
+.wrapper{
+  margin: 0 auto;
 }
 
 .login-section {
